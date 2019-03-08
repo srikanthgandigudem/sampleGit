@@ -68,6 +68,7 @@ public class Registration {
   @AfterTest
   public void afterTest() {
 	  driver.quit();
+	 driver.close();
   }
 
 }
